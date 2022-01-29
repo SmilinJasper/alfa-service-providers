@@ -2,7 +2,31 @@
     display: grid;
     grid-template-columns: 50% 50%;
     place-items: center;
-    padding: 2em;
+    padding: 2em 0.5em;
+}
+
+@media screen and (min-width: 480px) {
+    .feature-right {
+        padding: 4em 2em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .feature-right {
+        padding: 4em 6em;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .feature-right {
+        padding: 4em 15em;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .feature-right {
+        padding: 4em 18em;
+    }
 }
 
 .feature-right img {
