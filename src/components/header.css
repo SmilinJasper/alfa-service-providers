@@ -1,0 +1,124 @@
+/* Navigation Bar */
+
+.nav-bar-header {
+    width: 100%;
+    position: fixed;
+    right: 0;
+    text-transform: uppercase;
+    -webkit-transition: margin 300ms ease-in-out;
+    transition: margin 300ms ease-in-out;
+    z-index: 1000;
+}
+
+.head {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: white;
+    color: #128ae6;
+    padding: 8px;
+}
+
+.company-logo {
+    height: 50px;
+    padding: 8px;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav-bar {
+    display: none;
+    padding-right: 2em;
+}
+
+.nav-bar ul {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar a {
+    color: #128ae6;
+}
+
+.nav-bar a:hover {
+    color: hsl(206, 100%, 35%);
+}
+
+.nav-bar-mobile {
+    width: 75vw;
+    height: 100vh;
+    padding-left: 50px;
+    position: absolute;
+    left: 25vw;
+    background: rgba(0, 0, 0, 0.75);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    grid-gap: 8px;
+    text-align: start;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transition: -webkit-transform 300ms ease-in-out;
+    transition: -webkit-transform 300ms ease-in-out;
+    transition: transform 300ms ease-in-out;
+    transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+    -webkit-transform-origin: right;
+    transform-origin: right;
+}
+
+.nav-bar-mobile a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    opacity: 0;
+    -webkit-transition: opacity 75ms ease-in-out;
+    transition: opacity 75ms ease-in-out;
+}
+
+.nav-bar-mobile li:first-child {
+    margin-top: 4.5em;
+}
+
+.nav-bar-mobile li:not(:last-child) {
+    padding-bottom: 12px;
+}
+
+.nav-toggle:checked~nav {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.nav-toggle:checked~nav a {
+    opacity: 1;
+    -webkit-transition: opacity 150ms ease-in-out 200ms;
+    transition: opacity 150ms ease-in-out 200ms;
+}
+
+.header--scrolled-down {
+    margin-top: -66px;
+    -webkit-transition: margin 300ms ease-in-out;
+    transition: margin 300ms ease-in-out;
+}
+
+@media only screen and (min-width:768px) {
+    .nav-bar {
+        display: block;
+    }
+    .nav-bar-hamburger {
+        display: none;
+    }
+}

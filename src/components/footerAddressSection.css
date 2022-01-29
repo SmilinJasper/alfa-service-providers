@@ -1,0 +1,49 @@
+/* Variables */
+
+:root {
+    --footer-contact-mail-link-width: 170.3px;
+    --fa-envelope-width: 16px;
+    --fa-envelope-translateX-distance: calc((var(--footer-contact-mail-link-width)/2 + var(--fa-envelope-width)/2 + 0.5em) * -1);
+}
+
+address {
+    font-style: normal;
+}
+
+.footer-address-section {
+    margin-top: 2em;
+}
+
+.address-info:not(:last-child) {
+    padding-bottom: 0.3em;
+}
+
+.address-info p {
+    margin-left: .5rem;
+    padding: 0;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: whitesmoke;
+}
+
+.address-info a {
+    margin-left: .5rem;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.address-info__email {
+    position: relative;
+}
+
+.fa-envelope {
+    position: absolute;
+    top: 2px;
+    transform: translateX(var(--fa-envelope-translateX-distance));
+}
+
+.footer-contact-email-link {
+    position: absolute;
+    transform: translate(-50%);
+}
