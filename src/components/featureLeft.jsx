@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
-import './featureRight.css';
+import './featureLeft.css';
 
-class FeatureRight extends Component {
+class FeatureLeft extends Component {
     state = {  }
     render() { 
         return ( 
 
-    <div className='feature-right'>
-        
+    <div className='feature-left'>
+
         <img src={this.props.imgSrc} alt={this.props.imgAlt} />
 
         <div>
@@ -27,4 +27,4 @@ class FeatureRight extends Component {
     }
 }
  
-export default FeatureRight;
+export default FeatureLeft;
