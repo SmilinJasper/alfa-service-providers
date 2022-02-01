@@ -6,6 +6,13 @@
     padding: 2em 0.5em;
 }
 
+@media screen and (min-width: 320px) {
+    .feature-right {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 @media screen and (min-width: 480px) {
     .feature-right {
         padding: 4em 2em;
