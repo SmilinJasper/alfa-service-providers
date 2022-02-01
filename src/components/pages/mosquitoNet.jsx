@@ -7,6 +7,10 @@ import Footer from '../footer';
 
 class MosquitoNet extends Component {
 
+  componentDidMount(){
+    document.title = "Mosquito Nets"
+  }
+
   state = {  }
 
   render() { 
