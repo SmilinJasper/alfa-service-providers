@@ -22,11 +22,9 @@ class FeatureLeft extends Component {
             </p>
         </div>
 
-        {this.props.pros ? this.pros = this.props.pros.map(pro => <li>{pro}</li>) : null}
-
         <div className='pros'>
             <ul>
-                {this.props.pros}
+            {this.props.pros ? this.pros = this.props.pros.map(pro => <li>{pro}</li>) : null}
             </ul>
         </div>
 
