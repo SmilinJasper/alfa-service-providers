@@ -1,5 +1,6 @@
 .feature-right {
     display: grid;
+    grid-template-rows: 50% 50%;
     grid-template-columns: 50% 50%;
     place-items: center;
     padding: 2em 0.5em;
@@ -9,7 +10,7 @@
     .feature-right {
         padding: 4em 2em;
     }
-    .feature-right div {
+    .features {
         margin-left: 0.5em;
     }
 }
@@ -33,20 +34,34 @@
 }
 
 .feature-right img {
+    grid-row: 1/2;
     grid-column: 1/2;
 }
 
-.feature-right div {
+.feature-right .features {
+    grid-row: 1/2;
     grid-column: 2/3;
     margin-left: 1em;
 }
 
 @media screen and (max-width: 768px) {
-    .feature-right div {
+    .feature-right .features {
         margin-left: 0.5em;
     }
 }
 
-p {
+.feature-right p,
+.feature-right li {
+    color: gray;
     text-align: justify;
+}
+
+.feature-right .pros {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.feature-right .specifications {
+    grid-row: 2/3;
+    grid-column: 1/2;
 }
