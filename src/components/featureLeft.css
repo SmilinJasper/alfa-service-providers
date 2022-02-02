@@ -68,6 +68,7 @@
 .feature-left .pros {
     grid-row: 2/3;
     grid-column: 1/2;
+    padding: 1em;
 }
 
 .feature-left .specifications {
