@@ -36,7 +36,7 @@ class MosquitoNet extends Component {
                 'Non - breakable High quality components used',
                 'Long losting Life.'
               ]}
-              specifications={[
+/*               specifications={[
                 {'Colour': 'Dark brown, Golden brown, White, Ivory, Black'},
                 {'Mesh used': 'Fiber, Aluminium, S5-304 White and Black'},
                 {'Outer frame': 'Width - 20mm, Thickness - 9mm'},
@@ -46,7 +46,7 @@ class MosquitoNet extends Component {
                 {'Stopper': 'Virgin Thermoplastic'},
                 {'Rubber': 'EPDM 4.4mm'},
                 {'Connector': '(MCB) Thermoplastic'}
-              ]}
+              ]} */
             />
 
             <FeatureRight 
@@ -62,7 +62,7 @@ class MosquitoNet extends Component {
                 'Magnets strip used to lock the frame.',
                 'Weather strip used to cover the gapes.'
               ]}
-              specifications={[
+/*               specifications={[
                 {'Colour': 'Dark brown, Golden brown, White, Ivory, Black'},
                 {'Mesh used': 'Fiber, Aluminium, S5-304 White and Black'},
                 {'Outer frame': 'Width - 25.5mm, Thickness -12.7 mm'},
@@ -72,7 +72,7 @@ class MosquitoNet extends Component {
                 {'Strip': 'Weather strip'},
                 {'Rubber': 'EPDM 5.5mm'},
                 {'Magnet': '(A+B) 10mm'}
-              ]}
+              ]} */
             />
 
             
@@ -89,14 +89,14 @@ class MosquitoNet extends Component {
                 'Using aluminium hinges and corners ressist sagging and gives long life.',
                 'Long losting Life.'
               ]}
-              specifications={[
+/*               specifications={[
                 {'Frame': 'Outer width - 45mm, Middle width - 35mm'},
                 {'Colour': 'Dark brown, Golden brown, White, Ivory, Black'},
                 {'Corner': '45°'},
                 {'Hinges': 'Aluminium Hinges'},
                 {'Felt': '4mm weather strip'},
                 {'Magnet': '(A+B) attachable'}
-              ]}
+              ]} */
             />
 
             <FeatureRight 
@@ -111,6 +111,23 @@ class MosquitoNet extends Component {
                 'Durable Easy to wash',
                 'Quick and Easy Install.',
                 'Free Airflow and Easy to Handle'
+              ]}
+            />
+
+            <FeatureLeft 
+              title='BARRIER FREE - SLIDING SYSTEM'
+              imgSrc='/images/services/mosquito-net/motorised-roller-shutter-system.png' 
+              imgAlt='BARRIER FREE - SLIDING SYSTEM in Sulur, Coimbatore'
+              firstParagraph='Barrier Free or collapsible mosquito nets is a unique mosquito net system and a great solution for huge openings. It gives wider openings to allow sunlight and fresh air to pass but meshed closely enough to keep insects out.'
+              secondParagraph='This screens works on spring less technology with PVC based chain along the runner in floor. Trackless, retracktable, will not stumble or trip children or adults (safty). It has the option to use a single shutter or twin shutter opening. It can be suggested to doors, balconies, French doors windows with larger openings.'
+              pros={[
+                'User-friendly, robust and modern.',
+                'Smooth and tightness (flexibility)',
+                'It can be customized in any huge size doors',
+                'Flame retardant',
+                'Prevent dirts and greasy resistent',
+                'Pleated Polyester Water Proof Mesh',
+                'Absence of guides on the floor makes it easy to clean and transit'
               ]}
             />
 
